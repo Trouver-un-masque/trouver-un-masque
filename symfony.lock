@@ -1,4 +1,7 @@
 {
+    "behat/transliterator": {
+        "version": "v1.3.0"
+    },
     "doctrine/annotations": {
         "version": "1.0",
         "recipe": {
@@ -78,6 +81,15 @@
     "egulias/email-validator": {
         "version": "2.1.17"
     },
+    "gedmo/doctrine-extensions": {
+        "version": "v2.4.39"
+    },
+    "giggsey/libphonenumber-for-php": {
+        "version": "8.12.1"
+    },
+    "giggsey/locale": {
+        "version": "1.8"
+    },
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
     },
@@ -92,6 +104,18 @@
     },
     "ocramius/proxy-manager": {
         "version": "2.2.3"
+    },
+    "odolbeau/phone-number-bundle": {
+        "version": "3.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "3.0",
+            "ref": "4388686329b81291918a948cd42891829fb1de71"
+        },
+        "files": [
+            "config/packages/misd_phone_number.yaml"
+        ]
     },
     "php": {
         "version": "7.2"
